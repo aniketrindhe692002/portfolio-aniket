@@ -1,0 +1,401 @@
+
+/* Index Page CSS */
+
+html {
+    background-image: radial-gradient(circle at left, rgb(0, 0, 0),rgb(72, 71, 71));
+}
+#nav_div {
+    color: azure;
+    font-size: 18px;
+    text-decoration: none;
+    word-spacing: 5.5rem;
+    letter-spacing: 0.1rem;
+    margin-left: 31rem;
+    margin-bottom: 0.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+/* #nav_div a:hover {
+    box-shadow: 0rem 0rem 2rem 1rem rgba(230, 196, 196, 0.2) ;
+    transition: ;
+} */
+
+a { 
+    text-decoration: none;
+    color: azure;   
+}
+
+#profile {  
+    height: 4.375rem; 
+    width: 4.375rem;
+    margin-left: 3.5rem;
+    margin-top: 0.4rem;
+    display: inline-block; 
+}
+
+#index-main {
+    color: azure;
+    letter-spacing: 0.08rem;
+    position: relative;
+    width: 94rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#index-main aside {
+    float: right; 
+    margin-top: 5.5rem; 
+    margin-right: 2rem;
+}
+
+#index-main aside img {
+    width: 27rem;
+    height: 26rem;
+    margin-top: -2rem;
+    margin-right: 9rem;
+}
+
+#index-main article {
+    color: azure; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding: 1rem; 
+    margin-left: 100px;
+}
+
+#index-main a button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-left: 7.3rem;
+    background-color: azure;
+    width: 11rem;
+    height: 2rem;
+    border-radius: 2.5rem;
+    border-color: azure;
+    
+}
+
+#index-main a button:hover {
+    background-color: rgba(233, 104, 23, 0.932);
+    transition : background-color 0.6s ease;
+}
+
+
+/* Academics demo page CSS */
+
+.demo-box {
+    background-color: rgb(242, 245, 245);
+    height: 22rem;
+    width: 22rem;
+    display: inline-block;
+    margin-top: 6rem;
+    margin-left: 6.5rem;
+    border-radius: 4rem;
+    margin-bottom: 4rem;
+}
+
+.demo-box:hover {
+    box-shadow: 0rem 0rem 2rem 1rem rgba(230, 196, 196, 0.55) ;
+}
+
+#board img {
+    width: 18rem;
+    height: 18rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: -2.8rem;
+    margin-bottom: 1rem;
+}
+
+#board p {
+    margin-top: 2.5rem;
+    word-spacing: 5.5rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#board a { 
+    text-decoration: none;
+    color: black;   
+}
+
+
+/* Sub Academics Folder Details */
+
+/* 1. SSC  */
+
+#academic_info {
+    height: 70vh;
+    width: 60vw;
+    background-color: azure;
+    /* align-items: center; */
+    margin-left: 18vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    border-radius: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0rem 0rem 2rem 1rem rgba(186, 186, 187, 0.8) ;
+    background-image: radial-gradient(circle at left, rgb(37, 128, 225, 0.15),rgb(70, 140, 244) );
+}
+
+#academic_info h1 {
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    padding: 8px;
+}
+
+#academic_info p {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.15rem;
+    line-height: 2rem;
+}
+
+#also {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.15em;
+    color: azure;
+    font-size: larger;
+    font-weight: 50px;
+    margin-left: 20vw;
+    font-weight: bolder;
+}
+
+#also a:hover {
+    color: rgb(248, 48, 155);
+    text-decoration: underline;
+}
+
+/* Experience Page */
+
+#container {
+    height: 390px;
+    width: 1000px;
+    /* background-color: lightgray; */
+    margin-left: 27rem;
+    margin-top: -26rem;
+    margin-bottom  : 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: -200px;
+    /* display: inline-block; */
+}
+
+#flourisense {
+    height: 90%;
+    width: 40%;
+    background-color: azure;
+    margin-top: 1.5rem;
+    border-radius: 10%;
+}
+
+#bharat {
+    height: 90%;
+    width: 40%;
+    background-color: azure;
+    margin-top: 1.5rem;
+    border-radius: 10%;
+}
+
+.head1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.12rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+#container img{
+    height: 20%;
+    width: 80%;
+    margin-left: 2rem;
+    margin-top: -2rem;
+    
+}
+
+#container p {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+#container b {
+    font-size: x-large;
+    margin-left: 7rem;
+}
+
+.view {
+    color: black;
+}
+
+.view :hover {
+    color: rgb(248, 48, 155);
+    text-decoration: underline;
+}
+
+#container div:hover {
+    box-shadow: 0rem 0rem 2rem 1rem rgba(230, 196, 196, 0.55) ;
+}
+
+/* Experience SubPage */
+
+#experience_info {
+    height: 100vh;
+    width: 60vw;
+    background-color: azure;
+    /* align-items: center; */
+    margin-left: 18vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    border-radius: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0rem 0rem 2rem 1rem rgba(186, 186, 187, 0.8) ;
+    background-image: radial-gradient(circle at left, rgb(37, 128, 225, 0.15),rgb(70, 140, 244) );
+}
+
+#experience_info h1 {
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    padding: 8px;
+}
+
+#experience_info p{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.15rem;
+    line-height: 2rem;
+}
+
+#task li {
+    margin-left: 5vw;
+    margin-right: 4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.15rem;
+    line-height: 2rem;
+}
+
+#experience_info p a:hover {
+    color: rgb(248, 48, 155);
+    text-decoration: underline;
+}
+
+#exp {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-top: 10rem;
+}
+
+
+/* Work Page */
+
+#work-container {
+    height: 50rem;
+    width: 80rem;
+    margin-left: 6.5rem;
+    margin-top: 5rem;
+    margin-bottom: 18rem;
+    /* background-color: lightcyan; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-box {
+    height: 20rem;
+    width: 20rem;
+    background-color: azure;
+    margin: 20px;
+    border-radius: 2rem;
+    margin-bottom: 10rems;
+}
+
+#work-container img {
+    height: 12rem;
+    width: auto;
+    margin-left: 4rem;
+    margin-top: 0.9rem;    
+}
+
+.work-box h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 0.1rem;
+}
+
+.work-box h3{
+    color: black;
+}
+
+.work-box h3:hover {
+    color: rgb(248, 48, 155);
+    text-decoration: underline;
+}
+
+
+/* Work Sub Folder Code CSS */
+
+#work_info {
+    height: auto;
+    width: 70vw;
+    background-color: azure;
+    /* align-items: center; */
+    margin-left: 14vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    border-radius: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0rem 0rem 2rem 1rem rgba(186, 186, 187, 0.8) ;
+    background-image: radial-gradient(circle at left, rgb(37, 128, 225, 0.15),rgb(70, 140, 244) );
+}
+
+#work_info h1 {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    padding: 8px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+#work_info p {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.15rem;
+    line-height: 2rem;
+}
+
+#work_also {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.15em;
+    color: azure;
+    font-size: larger;
+    font-weight: 50px;
+    margin-left: 20vw;
+    font-weight: bolder;
+}
+
+#work_also a:hover {
+    color: rgb(248, 48, 155);
+    text-decoration: underline;
+}
+
+#ongoing {
+    height: 5vh;
+    width: 5vh;
+    background-color: lightgreen;
+    border-radius: 50%;
+    margin-top: -20rem;
+    margin-left: 18rem;
+}
